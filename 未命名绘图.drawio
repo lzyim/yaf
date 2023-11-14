@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T08:03:36.038Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="kTa-ks7H8ZQXfGKrGqHr" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-14T02:47:54.920Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="OmWOHqObLIfaWjyRE5tw" version="22.1.0" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
-    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2534" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -27,19 +27,16 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jvI7b4pxvWS0I2Bcl6QX-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jvI7b4pxvWS0I2Bcl6QX-2" target="jvI7b4pxvWS0I2Bcl6QX-7">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160" y="710" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="140" y="425" />
-              <mxPoint x="140" y="654" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="jvI7b4pxvWS0I2Bcl6QX-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jvI7b4pxvWS0I2Bcl6QX-2" target="jvI7b4pxvWS0I2Bcl6QX-43">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jvI7b4pxvWS0I2Bcl6QX-32" value="局域网（TCP/IP）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jvI7b4pxvWS0I2Bcl6QX-24">
-          <mxGeometry x="0.0551" y="-4" relative="1" as="geometry">
+        <mxCell id="jvI7b4pxvWS0I2Bcl6QX-51" value="USB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jvI7b4pxvWS0I2Bcl6QX-47">
+          <mxGeometry x="0.2063" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jvI7b4pxvWS0I2Bcl6QX-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jvI7b4pxvWS0I2Bcl6QX-2" target="jvI7b4pxvWS0I2Bcl6QX-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jvI7b4pxvWS0I2Bcl6QX-2" value="电脑" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.desktop;" vertex="1" parent="1">
           <mxGeometry x="203" y="376" width="89" height="98" as="geometry" />
@@ -65,7 +62,7 @@
         </mxCell>
         <mxCell id="jvI7b4pxvWS0I2Bcl6QX-30" value="局域网（HTTPS）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jvI7b4pxvWS0I2Bcl6QX-15">
           <mxGeometry x="0.192" y="5" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-3" y="11" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jvI7b4pxvWS0I2Bcl6QX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jvI7b4pxvWS0I2Bcl6QX-6" target="jvI7b4pxvWS0I2Bcl6QX-5">
@@ -73,28 +70,22 @@
         </mxCell>
         <mxCell id="jvI7b4pxvWS0I2Bcl6QX-31" value="局域网（HTTPS）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jvI7b4pxvWS0I2Bcl6QX-16">
           <mxGeometry x="0.4545" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-3" y="6" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jvI7b4pxvWS0I2Bcl6QX-6" value="负载均衡服务" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.web_service;" vertex="1" parent="1">
           <mxGeometry x="716" y="384.5" width="63" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jvI7b4pxvWS0I2Bcl6QX-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jvI7b4pxvWS0I2Bcl6QX-7" target="jvI7b4pxvWS0I2Bcl6QX-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="330" y="470" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="330" y="650" />
-              <mxPoint x="330" y="425" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="jvI7b4pxvWS0I2Bcl6QX-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jvI7b4pxvWS0I2Bcl6QX-7" target="jvI7b4pxvWS0I2Bcl6QX-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jvI7b4pxvWS0I2Bcl6QX-33" value="局域网（TCP/IP）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jvI7b4pxvWS0I2Bcl6QX-25">
-          <mxGeometry x="-0.013" relative="1" as="geometry">
+        <mxCell id="jvI7b4pxvWS0I2Bcl6QX-50" value="局域网（TCP/IP）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jvI7b4pxvWS0I2Bcl6QX-48">
+          <mxGeometry x="-0.0576" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jvI7b4pxvWS0I2Bcl6QX-7" value="CBCT 设备" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.hq_enterprise;" vertex="1" parent="1">
-          <mxGeometry x="193" y="610" width="92" height="88" as="geometry" />
+          <mxGeometry x="201.5" y="620" width="92" height="88" as="geometry" />
         </mxCell>
         <mxCell id="jvI7b4pxvWS0I2Bcl6QX-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jvI7b4pxvWS0I2Bcl6QX-10" target="jvI7b4pxvWS0I2Bcl6QX-6">
           <mxGeometry relative="1" as="geometry" />
@@ -109,6 +100,9 @@
         </mxCell>
         <mxCell id="jvI7b4pxvWS0I2Bcl6QX-23" value="病例存储服务" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.web_service;" vertex="1" parent="1">
           <mxGeometry x="640" y="526.5" width="63" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jvI7b4pxvWS0I2Bcl6QX-43" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.usb_stick;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="387" width="40" height="76.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
